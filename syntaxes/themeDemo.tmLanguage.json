@@ -1,0 +1,289 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Theme Demo Language",
+	"comment": {
+		"name": "comment.tdm",
+		"match": "comment.tdm"
+	},
+	"comment.line": {
+		"name": "comment.line.tdm",
+		"match": "comment.line.tdm"
+	},
+	"comment.line.double-slash": {
+		"name": "comment.line.double-slash.tdm",
+		"match": "comment.line.double-slash.tdm"
+	},
+	"comment.line.double-dash": {
+		"name": "comment.line.double-dash.tdm",
+		"match": "comment.line.double-dash.tdm"
+	},
+	"comment.line.number-sign": {
+		"name": "comment.line.number-sign.tdm",
+		"match": "comment.line.number-sign.tdm"
+	},
+	"comment.line.percentage": {
+		"name": "comment.line.percentage.tdm",
+		"match": "comment.line.percentage.tdm"
+	},
+	"comment.line.character": {
+		"name": "comment.line.character.tdm",
+		"match": "comment.line.character.tdm"
+	},
+	"comment.block": {
+		"name": "comment.block.tdm",
+		"match": "comment.block.tdm"
+	},
+	"comment.block.documentation": {
+		"name": "comment.block.documentation.tdm",
+		"match": "comment.block.documentation.tdm"
+	},
+	"constant": {
+		"name": "constant.tdm",
+		"match": "constant.tdm"
+	},
+	"constant.numeric": {
+		"name": "constant.numeric.tdm",
+		"match": "constant.numeric.tdm"
+	},
+	"constant.character": {
+		"name": "constant.character.tdm",
+		"match": "constant.character.tdm"
+	},
+	"constant.character.escape": {
+		"name": "constant.character.escape.tdm",
+		"match": "constant.character.escape.tdm"
+	},
+	"constant.language": {
+		"name": "constant.language.tdm",
+		"match": "constant.language.tdm"
+	},
+	"constant.other": {
+		"name": "constant.other.tdm",
+		"match": "constant.other.tdm"
+	},
+	"entity": {
+		"name": "entity.tdm",
+		"match": "entity.tdm"
+	},
+	"entity.name": {
+		"name": "entity.name.tdm",
+		"match": "entity.name.tdm"
+	},
+	"entity.name.function": {
+		"name": "entity.name.function.tdm",
+		"match": "entity.name.function.tdm"
+	},
+	"entity.name.type": {
+		"name": "entity.name.type.tdm",
+		"match": "entity.name.type.tdm"
+	},
+	"entity.name.tag": {
+		"name": "entity.name.tag.tdm",
+		"match": "entity.name.tag.tdm"
+	},
+	"entity.name.section": {
+		"name": "entity.name.section.tdm",
+		"match": "entity.name.section.tdm"
+	},
+	"entity.other": {
+		"name": "entity.other.tdm",
+		"match": "entity.other.tdm"
+	},
+	"entity.other.inherited-class": {
+		"name": "entity.other.inherited-class.tdm",
+		"match": "entity.other.inherited-class.tdm"
+	},
+	"entity.other.attribute-name": {
+		"name": "entity.other.attribute-name.tdm",
+		"match": "entity.other.attribute-name.tdm"
+	},
+	"invalid": {
+		"name": "invalid.tdm",
+		"match": "invalid.tdm"
+	},
+	"invalid.illegal": {
+		"name": "invalid.illegal.tdm",
+		"match": "invalid.illegal.tdm"
+	},
+	"invalid.deprecated": {
+		"name": "invalid.deprecated.tdm",
+		"match": "invalid.deprecated.tdm"
+	},
+	"keyword": {
+		"name": "keyword.tdm",
+		"match": "keyword.tdm"
+	},
+	"keyword.control": {
+		"name": "keyword.control.tdm",
+		"match": "keyword.control.tdm"
+	},
+	"keyword.operator": {
+		"name": "keyword.operator.tdm",
+		"match": "keyword.operator.tdm"
+	},
+	"keyword.other": {
+		"name": "keyword.other.tdm",
+		"match": "keyword.other.tdm"
+	},
+	"markup": {
+		"name": "markup.tdm",
+		"match": "markup.tdm"
+	},
+	"markup.underline": {
+		"name": "markup.underline.tdm",
+		"match": "markup.underline.tdm"
+	},
+	"markup.underline.link": {
+		"name": "markup.underline.link.tdm",
+		"match": "markup.underline.link.tdm"
+	},
+	"markup.bold": {
+		"name": "markup.bold.tdm",
+		"match": "markup.bold.tdm"
+	},
+	"markup.heading": {
+		"name": "markup.heading.tdm",
+		"match": "markup.heading.tdm"
+	},
+	"markup.heading.0": {
+		"name": "markup.heading.0.tdm",
+		"match": "markup.heading.0.tdm"
+	},
+	"markup.heading.1": {
+		"name": "markup.heading.1.tdm",
+		"match": "markup.heading.1.tdm"
+	},
+	"markup.heading.2": {
+		"name": "markup.heading.2.tdm",
+		"match": "markup.heading.2.tdm"
+	},
+	"markup.heading.3": {
+		"name": "markup.heading.3.tdm",
+		"match": "markup.heading.3.tdm"
+	},
+	"markup.italic": {
+		"name": "markup.italic.tdm",
+		"match": "markup.italic.tdm"
+	},
+	"markup.list": {
+		"name": "markup.list.tdm",
+		"match": "markup.list.tdm"
+	},
+	"markup.list.numbered": {
+		"name": "markup.list.numbered.tdm",
+		"match": "markup.list.numbered.tdm"
+	},
+	"markup.list.unnumbered": {
+		"name": "markup.list.unnumbered.tdm",
+		"match": "markup.list.unnumbered.tdm"
+	},
+	"markup.quote": {
+		"name": "markup.quote.tdm",
+		"match": "markup.quote.tdm"
+	},
+	"markup.raw": {
+		"name": "markup.raw.tdm",
+		"match": "markup.raw.tdm"
+	},
+	"markup.other": {
+		"name": "markup.other.tdm",
+		"match": "markup.other.tdm"
+	},
+	"storage": {
+		"name": "storage.tdm",
+		"match": "storage.tdm"
+	},
+	"storage.type": {
+		"name": "storage.type.tdm",
+		"match": "storage.type.tdm"
+	},
+	"storage.modifier": {
+		"name": "storage.modifier.tdm",
+		"match": "storage.modifier.tdm"
+	},
+	"string": {
+		"name": "string.tdm",
+		"match": "string.tdm"
+	},
+	"string.quoted": {
+		"name": "string.quoted.tdm",
+		"match": "string.quoted.tdm"
+	},
+	"string.quoted.single": {
+		"name": "string.quoted.single.tdm",
+		"match": "string.quoted.single.tdm"
+	},
+	"string.quoted.double": {
+		"name": "string.quoted.double.tdm",
+		"match": "string.quoted.double.tdm"
+	},
+	"string.quoted.triple": {
+		"name": "string.quoted.triple.tdm",
+		"match": "string.quoted.triple.tdm"
+	},
+	"string.quoted.other": {
+		"name": "string.quoted.other.tdm",
+		"match": "string.quoted.other.tdm"
+	},
+	"string.unquoted": {
+		"name": "string.unquoted.tdm",
+		"match": "string.unquoted.tdm"
+	},
+	"string.interpolated": {
+		"name": "string.interpolated.tdm",
+		"match": "string.interpolated.tdm"
+	},
+	"string.regexp": {
+		"name": "string.regexp.tdm",
+		"match": "string.regexp.tdm"
+	},
+	"string.other": {
+		"name": "string.other.tdm",
+		"match": "string.other.tdm"
+	},
+	"support": {
+		"name": "support.tdm",
+		"match": "support.tdm"
+	},
+	"support.function": {
+		"name": "support.function.tdm",
+		"match": "support.function.tdm"
+	},
+	"support.class": {
+		"name": "support.class.tdm",
+		"match": "support.class.tdm"
+	},
+	"support.type": {
+		"name": "support.type.tdm",
+		"match": "support.type.tdm"
+	},
+	"support.constant": {
+		"name": "support.constant.tdm",
+		"match": "support.constant.tdm"
+	},
+	"support.variable": {
+		"name": "support.variable.tdm",
+		"match": "support.variable.tdm"
+	},
+	"support.other": {
+		"name": "support.other.tdm",
+		"match": "support.other.tdm"
+	},
+	"variable": {
+		"name": "variable.tdm",
+		"match": "variable.tdm"
+	},
+	"variable.parameter": {
+		"name": "variable.parameter.tdm",
+		"match": "variable.parameter.tdm"
+	},
+	"variable.language": {
+		"name": "variable.language.tdm",
+		"match": "variable.language.tdm"
+	},
+	"variable.other": {
+		"name": "variable.other.tdm",
+		"match": "variable.other.tdm"
+	},
+	"scopeName": "source.tdm"
+}
