@@ -1,0 +1,75 @@
+{
+    "publisher": "jad-hamza",
+    "name": "stainless-fit",
+    "displayName": "Stainless Fit",
+    "description": "Syntax Highlighting for Stainless Fit",
+    "version": "0.0.3",
+    "repository": "https://github.com/jad-hamza/code-stainless-fit",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "main": "./out/extension.js",
+    "activationEvents": [
+        "onCommand:extension.eraseTypeAnnotations"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.eraseTypeAnnotations",
+                "title": "Stainless Fit: Erase Type Annotations"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "extension.eraseTypeAnnotations",
+                "key": "ctrl+k ctrl+v",
+                "when": "editorTextFocus"
+            }
+        ],
+        "languages": [
+            {
+                "id": "stainless-fit",
+                "aliases": [
+                    "Stainless Fit",
+                    "stainless-fit"
+                ],
+                "extensions": [
+                    "sf"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "stainless-fit",
+                "scopeName": "source.sf",
+                "path": "./syntaxes/stainless-fit.tmLanguage.json"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Stainless Fit",
+                "uiTheme": "vs",
+                "path": "./themes/stainless-fit-color-theme.json"
+            },
+            {
+                "label": "Stainless Fit dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/stainless-fit-dark-color-theme.json"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/node": "^13.7.1",
+        "@types/vscode": "^1.42.0",
+        "typescript": "^3.6.5"
+    }
+}
