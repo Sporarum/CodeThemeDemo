@@ -1,10 +1,10 @@
 {
-    "publisher": "jad-hamza",
-    "name": "stainless-fit",
-    "displayName": "Stainless Fit",
-    "description": "Syntax Highlighting for Stainless Fit",
+    "publisher": "Quentin Bernet",
+    "name": "Theme Demo Language",
+    "displayName": "Theme Demo Language",
+    "description": "A demo language highlighting",
     "version": "0.0.3",
-    "repository": "https://github.com/jad-hamza/code-stainless-fit",
+    "repository": "https://github.com/Sporarum/CodeThemeDemo",
     "engines": {
         "vscode": "^1.42.0"
     },
