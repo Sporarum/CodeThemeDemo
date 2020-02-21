@@ -1,9 +1,9 @@
 {
-    "publisher": "Quentin Bernet",
+    "publisher": "jad-hamza",
     "name": "themedemolanguage",
     "displayName": "Theme Demo Language",
     "description": "A demo language highlighting",
-    "version": "0.0.3",
+    "version": "0.0.1",
     "repository": "https://github.com/Sporarum/CodeThemeDemo",
     "engines": {
         "vscode": "^1.42.0"
@@ -11,65 +11,31 @@
     "categories": [
         "Programming Languages"
     ],
-    "main": "./out/extension.js",
-    "activationEvents": [
-        "onCommand:extension.eraseTypeAnnotations"
-    ],
     "contributes": {
-        "commands": [
-            {
-                "command": "extension.eraseTypeAnnotations",
-                "title": "Stainless Fit: Erase Type Annotations"
-            }
-        ],
-        "keybindings": [
-            {
-                "command": "extension.eraseTypeAnnotations",
-                "key": "ctrl+k ctrl+v",
-                "when": "editorTextFocus"
-            }
-        ],
         "languages": [
             {
-                "id": "stainless-fit",
+                "id": "themedemo",
                 "aliases": [
-                    "Stainless Fit",
-                    "stainless-fit"
+                    "Theme Demo",
+                    "ThemeDemo"
                 ],
                 "extensions": [
-                    "sf"
-                ],
-                "configuration": "./language-configuration.json"
+                    "tdm"
+                ]
             }
         ],
         "grammars": [
             {
-                "language": "stainless-fit",
-                "scopeName": "source.sf",
-                "path": "./syntaxes/stainless-fit.tmLanguage.json"
-            }
-        ],
-        "themes": [
-            {
-                "label": "Stainless Fit",
-                "uiTheme": "vs",
-                "path": "./themes/stainless-fit-color-theme.json"
-            },
-            {
-                "label": "Stainless Fit dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/stainless-fit-dark-color-theme.json"
+                "language": "themedemo",
+                "scopeName": "source.tdm",
+                "path": "./syntaxes/themeDemo.tmLanguage.json"
             }
         ]
     },
     "scripts": {
-        "vscode:prepublish": "npm run compile",
-        "compile": "tsc -p ./",
-        "watch": "tsc -watch -p ./"
     },
     "devDependencies": {
         "@types/node": "^13.7.1",
-        "@types/vscode": "^1.42.0",
-        "typescript": "^3.6.5"
+        "@types/vscode": "^1.42.0"
     }
 }
